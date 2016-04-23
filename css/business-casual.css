@@ -101,6 +101,26 @@ hr {
     margin: 0 auto 0;
 }
 
+.pic{
+   /* width:400px;
+    height:217px; */
+}
+.text{
+   /* width:340px;
+    height:217px; */
+    background:#FFF; 
+    opacity:0;
+}
+.pic:hover .text{
+    opacity:1.0;
+    text-align:justify;
+    color:#000000;
+    font-weight:700;
+    font-family: "Times New Roman",Times,serif;
+    padding:30px;
+}
+
+
 footer {
     background: #fff;
     background: rgba(255,255,255,0.9);
@@ -181,7 +201,7 @@ footer p {
         float: none;
         margin: 0 auto;
         table-layout: fixed;
-        font-size: 1.25em;
+        font-size: 1.15em;
     }
 }
 
