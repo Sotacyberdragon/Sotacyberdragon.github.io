@@ -53,6 +53,8 @@ hr {
 
 .img-full {
     min-width: 100%;
+    position: relative; 
+    width: 100%;
 }
 
 .brand-before,
@@ -104,6 +106,7 @@ hr {
 .pic{
    /* width:400px;
     height:217px; */
+    float: right;
 }
 .text{
    /* width:340px;
@@ -211,4 +214,13 @@ footer p {
         display: table;
         clear: both;
     }
+}
+
+h6 { 
+   position: absolute; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+   font-size: 250%;
+   font-family: "Times New Roman", Times, serif;
 }
